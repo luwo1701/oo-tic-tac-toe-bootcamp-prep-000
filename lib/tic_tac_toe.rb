@@ -119,7 +119,7 @@ class TicTacToe
   end
 end
 
-begin
+#=begin
 game= TicTacToe.new(["X", "X", "X", " ", " ", " ", " ", " ", " "])
 
 game.won?
