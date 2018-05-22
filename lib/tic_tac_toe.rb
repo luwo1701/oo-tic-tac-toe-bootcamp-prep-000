@@ -99,7 +99,7 @@ class TicTacToe
     if !won?
       return nil
     else
-      puts "#{@board} winner is #{@board[won?[0]]} combo is #{won?}"
+      #puts "#{@board} winner is #{@board[won?[0]]} combo is #{won?}"
       return @board[won?[0]]
     end
   end
